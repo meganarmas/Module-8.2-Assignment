@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 0 px;
+}
+
+.navbar {
+    background-color: rgb(229, 238, 238);
+    padding: 10px 20px;
+}
+
+.navmenu{
+    list-style: none;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+
+a{
+    color: rgb(159, 87, 19);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+a:hover{
+    color: darkorange;
+}

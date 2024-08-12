@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: auto;
+}
+
+.table{
+    width: 70%;
+    margin: 15px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 20px 18px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.data{
+    align-content: center;
+    border-collapse: collapse;
+    margin: 10px;
+    table-layout: fixed;
+}
+
+.data thead{
+    font-size: 15px;
+    margin: auto;
+    background-color: palevioletred;
+}
+
+.data tbody tr:nth-child(even){
+    background: pink;
+}

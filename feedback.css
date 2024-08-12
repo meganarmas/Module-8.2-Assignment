@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.submit-button{
+    background-color: aliceblue;
+    border-spacing: none;
+    color: gray;
+    padding: 4px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.submit-button:hover{
+    background: palegoldenrod;
+}

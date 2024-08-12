@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    text-decoration: none;
+    color: darkslategray;
+    background-color: white;
+}
+
+
+.register-form{
+    color: darkslateblue;
+    box-shadow: 20px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-color: white;
+}
+
+.register{
+    border-color: rgb(164, 151, 151);
+    border: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register input:focus{
+    background-color: whitesmoke;
+    color: darkslategray;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.register button:hover{
+    color: whitesmoke;
+    background-color: darkred;
+}
+
